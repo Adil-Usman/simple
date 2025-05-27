@@ -22,6 +22,7 @@
   color: white;
   font-family: sans-serif;
 }
+
 #group {
   z-index: 2;
 }
@@ -72,6 +73,14 @@ ul {
   list-style: none;
   font-family: sans-serif;
   font-size: 15px;
+}
+#cont button:hover {
+  background-color: black;
+  color: white;
+}
+#div1 button:hover {
+  background-color: black;
+  color: white;
 }
 #cont button {
   padding: 10px 30px;
@@ -604,6 +613,7 @@ video {
 }
 #lobiya img {
   width: 450px;
+  transition: all 0.5s;
 }
 @media (max-width: 960px) {
   #we {
@@ -697,6 +707,7 @@ video {
 
 #lobiya1 img {
   width: 450px;
+  transition: all 0.5s;
 }
 @media (max-width: 928px) {
   #lobiya1 img {
@@ -746,7 +757,7 @@ video {
     width: 100%;
   }
   #lobiya1 img {
-    width: 300px;
+    width: 350px;
   }
   #snip1 p {
     font-size: 1.1rem;
@@ -770,5 +781,203 @@ video {
   #snip1 p {
     font-size: 0.92rem;
     width: 280px;
+  }
+  #lobiya1 img {
+    width: 260px;
+  }
+  #snip1 p {
+    width: 250px;
+  }
+  #ec h3 {
+    width: 280px;
+  }
+}
+
+#manage {
+  background-color: #21a5d5;
+  padding-top: 50px;
+  color: white;
+}
+#mana {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+#des p {
+  width: 500px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+#des {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#h h3 {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+ol {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-left: 20px;
+}
+#des h3 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+#bol {
+  width: 110px;
+  padding: 7px;
+  color: #21a5d5;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  border: none;
+  border-radius: 15px;
+}
+#divi img {
+  transition: all 0.2s;
+}
+#divi img:hover {
+  scale: 1.05;
+}
+@media (max-width: 890px) {
+  #des p,
+  h3 {
+    font-size: 0.9rem;
+    margin-left: 50px;
+  }
+  ol {
+    margin-left: 80px;
+  }
+  #divi2 button {
+    margin-left: 100px;
+  }
+  #des {
+    gap: 60px;
+  }
+  #divi img {
+    width: 300px;
+    margin-left: 90px;
+  }
+  #des,
+  #divi {
+    width: 50%;
+  }
+}
+@media (max-width: 780px) {
+  #des p {
+    width: 350px;
+    font-size: 0.8rem;
+  }
+  #divi img {
+    margin-left: 65px;
+    width: 250px;
+  }
+  #des h3 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 630px) {
+  #mana {
+    flex-direction: column;
+  }
+  #divi img {
+    margin-left: 0;
+
+    width: 350px;
+  }
+  #divi {
+    margin: auto;
+    margin-top: 30px;
+  }
+  #des p {
+    font-size: 1.1rem;
+    width: 500px;
+    text-align: center;
+  }
+  #des h3 {
+    font-size: 2rem;
+    width: 300px;
+  }
+  #des ol {
+    font-size: 1rem;
+    width: 300px;
+  }
+}
+@media (max-width: 560px) {
+  #des p,
+  h3 {
+    margin-left: 20px;
+  }
+  #des p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 530px) {
+  #des p,
+  h3 {
+    margin-left: 10px;
+  }
+  #des p {
+    width: 380px;
+    font-size: 1.2rem;
+    margin-left: 60px;
+  }
+  #divi img {
+    width: 300px;
+  }
+}
+@media (max-width: 470px) {
+  #h h3 {
+    font-size: 1.2rem;
+  }
+  #des p {
+    font-size: 0.7rem;
+    margin-left: 30px;
+    width: 340px;
+  }
+  #divi img {
+    width: 250px;
+  }
+}
+@media (max-width: 390px) {
+  #h h3 {
+    font-size: 1.1rem;
+  }
+  #des p {
+    font-size: 0.6rem;
+    margin-left: 10px;
+  }
+  #des h3 {
+    font-size: 1.5rem;
+  }
+  ol {
+    font-size: 0.5rem;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 350px) {
+  #des p {
+    margin-left: 5px;
+
+    font-size: 0.55rem;
+
+    width: 300px;
+  }
+  #divi img {
+    width: 200px;
+  }
+  #h h3 {
+    font-size: 0.9rem;
+  }
+  #des ol {
+    font-size: 0.7rem;
+    width: 200px;
   }
 }
