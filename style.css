@@ -1028,7 +1028,7 @@ ol {
 }
 #blog {
   width: 87%;
-  height: 2000px;
+  height: 1800px;
   background-color: #21a5d5;
   margin-top: 70px;
 }
@@ -1057,12 +1057,11 @@ ol {
 }
 
 #boxes {
-  height: 1800px;
+  height: 1900px;
   width: 100%;
-  border: 2px solid black;
 }
 #bo {
-  height: 695px;
+  height: 2005px;
   width: 30%;
 }
 #b1 {
@@ -1071,7 +1070,7 @@ ol {
   padding-top: 20px;
 }
 #bo {
-  height: 695px;
+  height: 540px;
   width: 30%;
 
   background-color: white;
@@ -1107,8 +1106,168 @@ ol {
   font-family: sans-serif;
   font-size: small;
 }
-#date {
+#bo #date {
   font-family: sans-serif;
   color: gray;
-  font-size: small;
+  font-size: 0.7rem;
+}
+#bil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+#bil button {
+  background-color: #ffffff;
+  color: #21a5d5;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  border-radius: 40px;
+  font-weight: 700;
+}
+@media (min-width: 1220px) {
+  #bo {
+    height: 710px;
+  }
+  #blog {
+    width: 88.2%;
+  }
+}
+@media (max-width: 1220px) {
+  #blog {
+    width: 86%;
+  }
+  #bo {
+    height: 680px;
+  }
+}
+@media (max-width: 1138px) {
+  #blog {
+    width: 85%;
+  }
+  #bo {
+    height: 650px;
+  }
+}
+@media (max-width: 1070px) {
+  #blog {
+    width: 84.5%;
+  }
+  #bo {
+    height: 630px;
+  }
+}
+@media (max-width: 1028px) {
+  #blog {
+    width: 84%;
+  }
+  #bo {
+    height: 610px;
+  }
+}
+@media (max-width: 987px) {
+  #blog {
+    width: 83.5%;
+  }
+}
+@media (max-width: 957px) {
+  #blog {
+    width: 82.5%;
+  }
+}
+@media (max-width: 921px) {
+  #blog {
+    width: 81.5%;
+  }
+}
+@media (max-width: 871px) {
+  #blog {
+    width: 80.5%;
+  }
+}
+@media (max-width: 821px) {
+  #blog {
+    width: 78%;
+  }
+  #bo p {
+    font-size: 0.9rem;
+  }
+  #bo #date {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 735px) {
+  #b1,
+  #b2 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #boxes {
+    width: 80%;
+    padding: 50px;
+    padding-left: 80px;
+    margin: 5px;
+  }
+  #blog {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  #bo {
+    width: 90%;
+    height: 720px;
+  }
+  #blog {
+    height: 4800px;
+  }
+  #bo img {
+    height: 400px;
+  }
+}
+@media (max-width: 690px) {
+  #boxes {
+    width: 79%;
+  }
+}
+@media (max-width: 669px) {
+  #boxes {
+    width: 78%;
+  }
+}
+@media (max-width: 651px) {
+  #boxes {
+    width: 75%;
+    padding: 50px;
+    padding-left: 80px;
+  }
+  #bo {
+    width: 95%;
+  }
+}
+@media (max-width: 550px) {
+  #boxes {
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 435px) {
+  #boxes {
+    width: 81%;
+    padding: 30px;
+    padding-left: 40px;
+  }
+  #bo {
+    width: 95%;
+  }
+}
+@media (max-width: 365px) {
+  #boxes {
+    width: 90%;
+    padding: 5px;
+    padding-left: 15px;
+  }
+  #bo {
+    width: 97%;
+  }
 }
