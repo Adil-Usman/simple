@@ -1333,3 +1333,169 @@ input {
     margin: auto;
   }
 }
+#touch {
+  width: 100%;
+  height: 300px;
+  background-color: #141519;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+#ic {
+  color: rgb(112, 107, 107);
+  display: inline-block;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+#touch h3 {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+#yes {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#btic {
+  display: flex;
+  gap: 40px;
+}
+#ic:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 400px) {
+  #btic {
+    gap: 20px;
+  }
+  #ic {
+    font-size: 1.5rem;
+  }
+}
+#ken {
+  height: 50px;
+
+  display: flex;
+}
+#ken img {
+  width: 100%;
+}
+#legal {
+  background-color: #21a5d5;
+  color: white;
+  padding-top: 20px;
+  height: 200px;
+}
+#pri {
+  display: flex;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+#l1 img {
+  width: 100px;
+}
+#l2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#l2 p:hover {
+  color: black;
+}
+#l3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#l3 p:hover {
+  color: black;
+}
+#l4 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#l4 p:hover {
+  color: black;
+}
+#l5 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#l5 p:hover {
+  color: rgb(0, 0, 0);
+}
+#l2 h4,
+#l3 h4,
+#l4 h4,
+#l5 h4 {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+#l2 p,
+#l3 p,
+#l4 p,
+#l5 p {
+  transition: all 0.5s;
+}
+
+@media (max-width: 883px) {
+  #pri {
+    gap: 20px;
+  }
+  #l2 p,
+  #l3 p,
+  #l4 p,
+  #l5 p {
+    font-size: 0.6rem;
+  }
+  #l1 img {
+    width: 60px;
+  }
+}
+@media (max-width: 569px) {
+  #pri {
+    gap: 20px;
+  }
+  #l2 p,
+  #l3 p,
+  #l4 p,
+  #l5 p {
+    font-size: 1rem;
+  }
+  #l1 img {
+    width: 100px;
+  }
+  #l2 h4,
+  #l3 h4,
+  #l4 h4,
+  #l5 h4 {
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #pri {
+    flex-direction: column;
+    align-items: center;
+  }
+  #legal {
+    height: 800px;
+  }
+}
+#happyending {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+@media (max-width: 431px) {
+  #happyending h3 {
+    font-size: 0.6rem;
+  }
+}
