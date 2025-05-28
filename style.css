@@ -1276,3 +1276,60 @@ ol {
     width: 97%;
   }
 }
+#us {
+  width: 80%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+input {
+  display: block;
+}
+#ct {
+  display: flex;
+  justify-content: space-around;
+}
+#sahi {
+  padding: 10px;
+}
+#sahi1 {
+  height: 150px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+#us button {
+  width: 140px;
+  background-color: #21a5d5;
+  border: none;
+  color: white;
+  margin: auto;
+  padding: 8px;
+  border-radius: 7px;
+  height: 40px;
+  transition: all 0.5s;
+}
+#us button:hover {
+  background-color: black;
+  color: white;
+}
+#us h3 {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+#us p {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+}
+@media (max-width: 500px) {
+  #us p {
+    font-size: 0.8rem;
+  }
+  #ct {
+    width: 80%;
+    margin: auto;
+  }
+}
