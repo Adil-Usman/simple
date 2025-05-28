@@ -1125,6 +1125,11 @@ ol {
   width: 100px;
   border-radius: 40px;
   font-weight: 700;
+  transition: all 0.7s;
+}
+#bil button:hover {
+  background-color: black;
+  color: white;
 }
 @media (min-width: 1220px) {
   #bo {
